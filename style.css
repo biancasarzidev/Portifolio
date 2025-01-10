@@ -237,6 +237,7 @@ section.portfolio{
 section.portfolio .flex{
     justify-content: space-around;
     padding-top: 70px;
+    gap: 20px;
 }
 
 .overlay{
@@ -357,5 +358,30 @@ footer .logo-footer img{
     }
     .menu-desktok, .btn-contato{
         display: none;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    section.topo-do-site.flex{
+        gap: 45px;
+    }
+
+    section .especialidades{
+        padding: 40px 8%;
+    }
+
+    h2.titulo{
+        font-size: 30px;
+        line-height: 30px;
     }
 }
