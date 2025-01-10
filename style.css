@@ -346,3 +346,16 @@ footer .logo-footer img{
     width: 120px;
     padding-top: -15px;
 }
+
+@media screen and (max-width: 1020px){
+
+    .flex{
+        flex-direction: column;
+    }
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+    .menu-desktok, .btn-contato{
+        display: none;
+    }
+}
