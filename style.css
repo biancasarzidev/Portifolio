@@ -120,7 +120,7 @@ section.topo-do-site.flex{
 }
 
 .topo-do-site .img-topo-site img{
-    width: 300px;
+    width: 350px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -164,4 +164,52 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 20px;
     margin: 15px 0;
+}
+
+/* ESTILO DO SOBRE */
+
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: white;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.sobre .txt-sobre h2 span{ 
+    color: rgb(244, 137, 244);
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(244, 137, 244);
+    font-size: 23px;
+    cursor: pointer;
+    margin: 0 4px;
+    transition: .2s;
+}
+
+.sobre .txt-sobre .btn-social button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.475);
 }
