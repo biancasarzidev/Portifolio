@@ -197,7 +197,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -311,5 +311,38 @@ form .btn-enviar input{
 form .btn-enviar input:hover{
     transform: scale(1.05);
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.475);
- }
+}
 
+/* estilo rodapé */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.13);
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+.line-footer{
+    padding: 20px 0;
+}
+
+footer .line-footer p i{
+    color: rgb(244, 137, 244);
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+.borda{
+    border-top: 2px solid rgb(244, 137, 244);
+}
+
+footer .logo-footer img{
+    width: 120px;
+    padding-top: -15px;
+}
