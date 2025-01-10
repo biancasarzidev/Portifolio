@@ -213,3 +213,19 @@ section.sobre .flex{
     transform: scale(1.05);
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.475);
 }
+
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.13);
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: rgb(244, 137, 244);
+    background-size: cover;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+}
